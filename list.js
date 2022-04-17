@@ -9,7 +9,7 @@ body = JSON.parse($response.body)
 body.data[0].recordStatus = 4
 body.data[0].beginTime = bt
 body.data[0].endTime = et
-body.data[0].reason = "我想出去吃汉堡王啊！"
+// body.data[0].reason = "我想出去吃汉堡王啊！"
 
 
 $done({ body: JSON.stringify(body) });
